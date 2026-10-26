@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="Discover famous foods and food traditions from six world regions." name="description"/>
+  <title>
+   Africa | FoodWorld
+  </title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&amp;family=Playfair+Display:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body data-page="africa">
+  <header class="site-header">
+   <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+     <span class="brand-mark">
+      ✦
+     </span>
+     Food
+     <span>
+      World
+     </span>
+    </a>
+    <nav class="desktop-nav">
+     <a data-nav="home" href="index.html">
+      Home
+     </a>
+     <div class="nav-dropdown">
+      <button aria-expanded="false" id="region-toggle" type="button">
+       Regions
+       <span>
+        ⌄
+       </span>
+      </button>
+      <div class="dropdown-menu">
+       <a href="asia.html">
+        🌏 Asia
+       </a>
+       <a href="africa.html">
+        🌍 Africa
+       </a>
+       <a href="europe.html">
+        🌍 Europe
+       </a>
+       <a href="north-america.html">
+        🌎 North America
+       </a>
+       <a href="south-america.html">
+        🌎 South America
+       </a>
+       <a href="oceania.html">
+        🌏 Australia &amp; Oceania
+       </a>
+      </div>
+     </div>
+     <a data-nav="links" href="useful-links.html">
+      Useful Links
+     </a>
+     <a data-nav="about" href="about-us.html">
+      About Us
+     </a>
+    </nav>
+    <button aria-label="Toggle navigation" class="mobile-menu-btn" id="menu-btn" type="button">
+     ☰
+    </button>
+   </div>
+   <div class="mobile-nav" id="mobile-nav">
+    <a href="index.html">
+     Home
+    </a>
+    <a href="asia.html">
+     🌏 Asia
+    </a>
+    <a href="africa.html">
+     🌍 Africa
+    </a>
+    <a href="europe.html">
+     🌍 Europe
+    </a>
+    <a href="north-america.html">
+     🌎 North America
+    </a>
+    <a href="south-america.html">
+     🌎 South America
+    </a>
+    <a href="oceania.html">
+     🌏 Australia &amp; Oceania
+    </a>
+    <a href="useful-links.html">
+     Useful Links
+    </a>
+    <a href="about-us.html">
+     About Us
+    </a>
+   </div>
+  </header>
+  <main>
+   <section class="region-hero">
+    <div class="wrap">
+     <a class="breadcrumb" href="index.html">
+      Home
+      <span>
+       &rsaquo;
+      </span>
+      Regions
+      <span>
+       &rsaquo;
+      </span>
+      Africa
+     </a>
+     <div class="region-hero-grid">
+      <div>
+       <span class="eyebrow">
+        EXPLORE THE REGION
+       </span>
+       <h1>
+        Flavors of
+        <em>
+         Africa
+        </em>
+       </h1>
+       <p>
+        Colorful grains, aromatic stews, and recipes shared across generations.
+       </p>
+       <div class="region-meta">
+        <span>
+         🌍 5 countries
+        </span>
+        <span>
+         🍽️ 5 signature dishes
+        </span>
+       </div>
+      </div>
+      <div class="region-bubble">
+       🌍
+       <span>
+        EXPLORE &bull; TASTE &bull; LEARN
+       </span>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="wrap region-content">
+    <div class="region-toolhead">
+     <div>
+      <span class="eyebrow">
+       5 MUST-KNOW DISHES
+      </span>
+      <h2>
+       Meet the local favorites
+      </h2>
+      <p>
+       Nigeria &middot; Ethiopia &middot; Morocco &middot; Egypt &middot; South Africa
+      </p>
+     </div>
+     <label class="search-box">
+      &telrec;
+      <input aria-label="Search countries or dishes" id="food-search" placeholder="Search a country or dish..." type="search"/>
+     </label>
+    </div>
+    <div class="country-list" id="country-list">
+     <article class="country-card" data-search="nigeria jollof rice" id="nigeria">
+      <div class="country-visual f-peach">
+       <div class="country-index">
+        01 / 05
+       </div>
+       <img alt="Illustration of Jollof Rice, a signature dish from Nigeria" class="country-food-image" height="480" loading="lazy" src="images/jollof rice.jpg" width="640"/>
+       <div class="country-label">
+        Nigeria
+       </div>
+      </div>
+      <div class="country-content">
+       <span class="eyebrow">
+        SIGNATURE FOOD &middot; NIGERIA
+       </span>
+       <h2>
+        Jollof Rice
+       </h2>
+       <p class="food-description">
+        Tomato-rich rice cooked with peppers and warm spices.
+       </p>
+       <div class="country-facts">
+        <div>
+         <h4>
+          THE STORY
+         </h4>
+         <p>
+          Jollof has roots in West African food history and developed into numerous national variations.
+         </p>
+        </div>
+        <div>
+         <h4>
+          WHY IT'S LOVED
+         </h4>
+         <p>
+          It is central to parties and friendly debates about which version tastes best.
+         </p>
+        </div>
+       </div>
+       <button class="btn primary recipe-btn" data-index="0" data-region="africa">
+        View recipe &amp; details &nearrow;
+       </button>
+      </div>
+     </article>
+     <article class="country-card" data-search="ethiopia injera with doro wat" id="ethiopia">
+      <div class="country-visual f-mint">
+       <div class="country-index">
+        02 / 05
+       </div>
+       <img alt="Illustration of Injera with Doro Wat, a signature dish from Ethiopia" class="country-food-image" height="480" loading="lazy" src="images/injera with doro wat.jpg" width="640"/>
+       <div class="country-label">
+        Ethiopia
+       </div>
+      </div>
+      <div class="country-content">
+       <span class="eyebrow">
+        SIGNATURE FOOD &middot; ETHIOPIA
+       </span>
+       <h2>
+        Injera with Doro Wat
+       </h2>
+       <p class="food-description">
+        Tangy flatbread paired with a richly spiced chicken stew.
+       </p>
+       <div class="country-facts">
+        <div>
+         <h4>
+          THE STORY
+         </h4>
+         <p>
+          Injera and communal platters have long been important to Ethiopian dining traditions.
+         </p>
+        </div>
+        <div>
+         <h4>
+          WHY IT'S LOVED
+         </h4>
+         <p>
+          The shared eating style and distinctive fermented teff flatbread make the meal memorable.
+         </p>
+        </div>
+       </div>
+       <button class="btn primary recipe-btn" data-index="1" data-region="africa">
+        View recipe &amp; details &nearrow;
+       </button>
+      </div>
+     </article>
+     <article class="country-card" data-search="morocco couscous" id="morocco">
+      <div class="country-visual f-lavender">
+       <div class="country-index">
+        03 / 05
+       </div>
+       <img alt="Illustration of Couscous, a signature dish from Morocco" class="country-food-image" height="480" loading="lazy" src="images/couscous.jpg" width="640"/>
+       <div class="country-label">
+        Morocco
+       </div>
+      </div>
+      <div class="country-content">
+       <span class="eyebrow">
+        SIGNATURE FOOD &middot; MOROCCO
+       </span>
+       <h2>
+        Couscous
+       </h2>
+       <p class="food-description">
+        Steamed semolina grains served with vegetables and savory broth.
+       </p>
+       <div class="country-facts">
+        <div>
+         <h4>
+          THE STORY
+         </h4>
+         <p>
+          Couscous is a long-established North African staple closely connected with Amazigh food heritage.
+         </p>
+        </div>
+        <div>
+         <h4>
+          WHY IT'S LOVED
+         </h4>
+         <p>
+          It is a popular family meal and a symbol of hospitality.
+         </p>
+        </div>
+       </div>
+       <button class="btn primary recipe-btn" data-index="2" data-region="africa">
+        View recipe &amp; details &nearrow;
+       </button>
+      </div>
+     </article>
+     <article class="country-card" data-search="egypt koshari" id="egypt">
+      <div class="country-visual f-yellow">
+       <div class="country-index">
+        04 / 05
+       </div>
+       <img alt="Illustration of Koshari, a signature dish from Egypt" class="country-food-image" height="480" loading="lazy" src="images/koshsari.webp" width="640"/>
+       <div class="country-label">
+        Egypt
+       </div>
+      </div>
+      <div class="country-content">
+       <span class="eyebrow">
+        SIGNATURE FOOD &middot; EGYPT
+       </span>
+       <h2>
+        Koshari
+       </h2>
+       <p class="food-description">
+        A hearty street-food bowl of rice, lentils, pasta, and tomato sauce.
+       </p>
+       <div class="country-facts">
+        <div>
+         <h4>
+          THE STORY
+         </h4>
+         <p>
+          Koshari developed in modern Egypt through the blending of diverse staple ingredients.
+         </p>
+        </div>
+        <div>
+         <h4>
+          WHY IT'S LOVED
+         </h4>
+         <p>
+          Affordable, filling, and easy to customize, it is a cherished everyday dish.
+         </p>
+        </div>
+       </div>
+       <button class="btn primary recipe-btn" data-index="3" data-region="africa">
+        View recipe &amp; details &nearrow;
+       </button>
+      </div>
+     </article>
+     <article class="country-card" data-search="south africa bobotie" id="south-africa">
+      <div class="country-visual f-blue">
+       <div class="country-index">
+        05 / 05
+       </div>
+       <img alt="Illustration of Bobotie, a signature dish from South Africa" class="country-food-image" height="480" loading="lazy" src="images/bobotie.jpg" width="640"/>
+       <div class="country-label">
+        South Africa
+       </div>
+      </div>
+      <div class="country-content">
+       <span class="eyebrow">
+        SIGNATURE FOOD &middot; SOUTH AFRICA
+       </span>
+       <h2>
+        Bobotie
+       </h2>
+       <p class="food-description">
+        Spiced baked minced meat topped with a savory egg custard.
+       </p>
+       <div class="country-facts">
+        <div>
+         <h4>
+          THE STORY
+         </h4>
+         <p>
+          Bobotie reflects layered influences in South African, especially Cape Malay, cooking.
+         </p>
+        </div>
+        <div>
+         <h4>
+          WHY IT'S LOVED
+         </h4>
+         <p>
+          Its balance of sweet and savory flavors makes it a recognizable home-style dish.
+         </p>
+        </div>
+       </div>
+       <button class="btn primary recipe-btn" data-index="4" data-region="africa">
+        View recipe &amp; details &nearrow;
+       </button>
+      </div>
+     </article>
+    </div>
+    <div class="empty-state" hidden="" id="empty-state">
+     No dishes match your search. Try another name.
+    </div>
+    <div class="region-end">
+     <p>
+      Hungry for more? Explore another part of the world.
+     </p>
+     <a class="btn outline" href="index.html#regions">
+      All six regions &nearrow;
+     </a>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div class="wrap footer-grid">
+    <div>
+     <div class="footer-brand">
+      ✦ FoodWorld
+     </div>
+     <p>
+      Exploring food, people, and traditions &mdash; one region at a time.
+     </p>
+    </div>
+    <div>
+     <h4>
+      Discover
+     </h4>
+     <a href="index.html#map">
+      Explore the map
+     </a>
+     <a href="useful-links.html">
+      Recipe resources
+     </a>
+    </div>
+    <div>
+     <h4>
+      Project
+     </h4>
+     <a href="about-us.html">
+      About our team
+     </a>
+     <span>
+      Made for learning &amp; cultural discovery.
+     </span>
+    </div>
+   </div>
+   <div class="wrap footer-bottom">
+    &copy; 2026 FoodWorld &middot; A student educational project &middot; Signature dishes are editorial selections, not official rankings.
+   </div>
+  </footer>
+  <script id="region-data" type="application/json">
+   {"name": "Africa", "flag": "🌍", "lead": "Colorful grains, aromatic stews, and recipes shared across generations.", "countries": [["Nigeria", "Jollof Rice", "🍚", "Tomato-rich rice cooked with peppers and warm spices.", "Jollof has roots in West African food history and developed into numerous national variations.", "It is central to parties and friendly debates about which version tastes best.", ["long-grain rice", "tomatoes", "red peppers", "onions", "stock"], ["Blend tomatoes, peppers, and onions.", "Cook the sauce with spices until concentrated.", "Add rice and stock; cover and steam until tender."]], ["Ethiopia", "Injera with Doro Wat", "🥘", "Tangy flatbread paired with a richly spiced chicken stew.", "Injera and communal platters have long been important to Ethiopian dining traditions.", "The shared eating style and distinctive fermented teff flatbread make the meal memorable.", ["teff flour", "chicken", "onion", "berbere spice", "egg"], ["Prepare fermented injera batter ahead of time.", "Slow-cook onions and berbere, then add chicken.", "Serve the stew with injera and boiled eggs."]], ["Morocco", "Couscous", "🥣", "Steamed semolina grains served with vegetables and savory broth.", "Couscous is a long-established North African staple closely connected with Amazigh food heritage.", "It is a popular family meal and a symbol of hospitality.", ["couscous", "carrots", "zucchini", "chickpeas", "spiced broth"], ["Simmer vegetables and chickpeas in seasoned broth.", "Steam or hydrate couscous until fluffy.", "Pile vegetables over couscous and spoon broth on top."]], ["Egypt", "Koshari", "🍲", "A hearty street-food bowl of rice, lentils, pasta, and tomato sauce.", "Koshari developed in modern Egypt through the blending of diverse staple ingredients.", "Affordable, filling, and easy to customize, it is a cherished everyday dish.", ["rice", "lentils", "macaroni", "tomato sauce", "crispy onions"], ["Cook lentils, rice, and pasta separately.", "Make a garlicky tomato sauce.", "Layer everything and top with crisp onions."]], ["South Africa", "Bobotie", "🥧", "Spiced baked minced meat topped with a savory egg custard.", "Bobotie reflects layered influences in South African, especially Cape Malay, cooking.", "Its balance of sweet and savory flavors makes it a recognizable home-style dish.", ["minced meat", "curry spices", "onion", "milk", "eggs"], ["Cook minced meat with onion and spices.", "Transfer to a baking dish.", "Pour seasoned egg-and-milk mixture over and bake."]]]}
+  </script>
+  <script src="app.js">
+  </script>
+  <script id="region-data" type="application/json">
+   {"name": "Africa", "flag": "🌍", "lead": "Colorful grains, aromatic stews, and recipes shared across generations.", "countries": [["Nigeria", "Jollof Rice", "🍚", "Tomato-rich rice cooked with peppers and warm spices.", "Jollof has roots in West African food history and developed into numerous national variations.", "It is central to parties and friendly debates about which version tastes best.", ["long-grain rice", "tomatoes", "red peppers", "onions", "stock"], ["Blend tomatoes, peppers, and onions.", "Cook the sauce with spices until concentrated.", "Add rice and stock; cover and steam until tender."]], ["Ethiopia", "Injera with Doro Wat", "🥘", "Tangy flatbread paired with a richly spiced chicken stew.", "Injera and communal platters have long been important to Ethiopian dining traditions.", "The shared eating style and distinctive fermented teff flatbread make the meal memorable.", ["teff flour", "chicken", "onion", "berbere spice", "egg"], ["Prepare fermented injera batter ahead of time.", "Slow-cook onions and berbere, then add chicken.", "Serve the stew with injera and boiled eggs."]], ["Morocco", "Couscous", "🥣", "Steamed semolina grains served with vegetables and savory broth.", "Couscous is a long-established North African staple closely connected with Amazigh food heritage.", "It is a popular family meal and a symbol of hospitality.", ["couscous", "carrots", "zucchini", "chickpeas", "spiced broth"], ["Simmer vegetables and chickpeas in seasoned broth.", "Steam or hydrate couscous until fluffy.", "Pile vegetables over couscous and spoon broth on top."]], ["Egypt", "Koshari", "🍲", "A hearty street-food bowl of rice, lentils, pasta, and tomato sauce.", "Koshari developed in modern Egypt through the blending of diverse staple ingredients.", "Affordable, filling, and easy to customize, it is a cherished everyday dish.", ["rice", "lentils", "macaroni", "tomato sauce", "crispy onions"], ["Cook lentils, rice, and pasta separately.", "Make a garlicky tomato sauce.", "Layer everything and top with crisp onions."]], ["South Africa", "Bobotie", "🥧", "Spiced baked minced meat topped with a savory egg custard.", "Bobotie reflects layered influences in South African, especially Cape Malay, cooking.", "Its balance of sweet and savory flavors makes it a recognizable home-style dish.", ["minced meat", "curry spices", "onion", "milk", "eggs"], ["Cook minced meat with onion and spices.", "Transfer to a baking dish.", "Pour seasoned egg-and-milk mixture over and bake."]]]}
+  </script>
+ </body>
+</html>

@@ -1,0 +1,644 @@
+{
+  "asia": {
+    "name": "Asia",
+    "flag": "🌏",
+    "lead": "A world of aromatic spices, street-food favorites, and centuries-old traditions.",
+    "countries": [
+      [
+        "Myanmar",
+        "Mohinga",
+        "🍜",
+        "A fragrant fish-and-rice-noodle soup, often enjoyed for breakfast.",
+        "Mohinga is deeply woven into everyday Burmese food culture and is sold in markets and teashops.",
+        "Its comforting broth, fresh toppings, and presence across the country make it a beloved national favorite.",
+        [
+          "rice noodles",
+          "fish",
+          "lemongrass",
+          "onion",
+          "banana stem (optional)"
+        ],
+        [
+          "Simmer fish with lemongrass, onion, and spices.",
+          "Flake the cooked fish into the seasoned broth.",
+          "Serve over rice noodles with your favorite crunchy toppings."
+        ]
+      ],
+      [
+        "Thailand",
+        "Pad Thai",
+        "🍝",
+        "Stir-fried rice noodles with tamarind, egg, and fresh garnishes.",
+        "Pad Thai became widely promoted in Thailand during the twentieth century and developed into a popular street-food dish.",
+        "The sweet, sour, salty balance and fast wok cooking have made it internationally recognizable.",
+        [
+          "rice noodles",
+          "tamarind sauce",
+          "egg",
+          "tofu or shrimp",
+          "bean sprouts"
+        ],
+        [
+          "Soak rice noodles until flexible.",
+          "Stir-fry protein and egg, then add noodles and tamarind sauce.",
+          "Toss with bean sprouts and finish with lime and peanuts."
+        ]
+      ],
+      [
+        "China",
+        "Peking Duck",
+        "🦆",
+        "Crisp-skinned roasted duck served with thin pancakes and sauce.",
+        "Peking duck is associated with Beijing and has roots in imperial-era Chinese cooking.",
+        "Its elaborate roasting technique and celebratory presentation make it iconic.",
+        [
+          "duck",
+          "five-spice powder",
+          "thin pancakes",
+          "spring onions",
+          "hoisin-style sauce"
+        ],
+        [
+          "Season and air-dry the duck skin before roasting.",
+          "Roast until the skin is deeply golden and crisp.",
+          "Slice and serve with pancakes, vegetables, and sauce."
+        ]
+      ],
+      [
+        "Singapore",
+        "Hainanese Chicken Rice",
+        "🍚",
+        "Tender poached chicken with seasoned rice and chili sauce.",
+        "Adapted from Hainanese cooking traditions, the dish became a signature of Singapore’s hawker culture.",
+        "Its simple ingredients, distinctive rice, and flavorful sauces are celebrated across the city.",
+        [
+          "chicken",
+          "jasmine rice",
+          "ginger",
+          "garlic",
+          "chili sauce"
+        ],
+        [
+          "Poach chicken gently with ginger and aromatics.",
+          "Cook rice in seasoned chicken stock.",
+          "Serve sliced chicken with rice, cucumber, and sauces."
+        ]
+      ],
+      [
+        "India",
+        "Biryani",
+        "🍛",
+        "Fragrant layered rice with spices, herbs, and meat or vegetables.",
+        "Biryani evolved through several regional traditions influenced by Persianate and South Asian cooking.",
+        "Its rich fragrance, celebratory role, and many regional varieties make it widely loved.",
+        [
+          "basmati rice",
+          "mixed spices",
+          "onion",
+          "yogurt",
+          "chicken or vegetables"
+        ],
+        [
+          "Parboil rice with whole spices.",
+          "Prepare a spiced filling with onions and yogurt.",
+          "Layer rice and filling, cover, and steam gently."
+        ]
+      ]
+    ]
+  },
+  "africa": {
+    "name": "Africa",
+    "flag": "🌍",
+    "lead": "Colorful grains, aromatic stews, and recipes shared across generations.",
+    "countries": [
+      [
+        "Nigeria",
+        "Jollof Rice",
+        "🍚",
+        "Tomato-rich rice cooked with peppers and warm spices.",
+        "Jollof has roots in West African food history and developed into numerous national variations.",
+        "It is central to parties and friendly debates about which version tastes best.",
+        [
+          "long-grain rice",
+          "tomatoes",
+          "red peppers",
+          "onions",
+          "stock"
+        ],
+        [
+          "Blend tomatoes, peppers, and onions.",
+          "Cook the sauce with spices until concentrated.",
+          "Add rice and stock; cover and steam until tender."
+        ]
+      ],
+      [
+        "Ethiopia",
+        "Injera with Doro Wat",
+        "🥘",
+        "Tangy flatbread paired with a richly spiced chicken stew.",
+        "Injera and communal platters have long been important to Ethiopian dining traditions.",
+        "The shared eating style and distinctive fermented teff flatbread make the meal memorable.",
+        [
+          "teff flour",
+          "chicken",
+          "onion",
+          "berbere spice",
+          "egg"
+        ],
+        [
+          "Prepare fermented injera batter ahead of time.",
+          "Slow-cook onions and berbere, then add chicken.",
+          "Serve the stew with injera and boiled eggs."
+        ]
+      ],
+      [
+        "Morocco",
+        "Couscous",
+        "🥣",
+        "Steamed semolina grains served with vegetables and savory broth.",
+        "Couscous is a long-established North African staple closely connected with Amazigh food heritage.",
+        "It is a popular family meal and a symbol of hospitality.",
+        [
+          "couscous",
+          "carrots",
+          "zucchini",
+          "chickpeas",
+          "spiced broth"
+        ],
+        [
+          "Simmer vegetables and chickpeas in seasoned broth.",
+          "Steam or hydrate couscous until fluffy.",
+          "Pile vegetables over couscous and spoon broth on top."
+        ]
+      ],
+      [
+        "Egypt",
+        "Koshari",
+        "🍲",
+        "A hearty street-food bowl of rice, lentils, pasta, and tomato sauce.",
+        "Koshari developed in modern Egypt through the blending of diverse staple ingredients.",
+        "Affordable, filling, and easy to customize, it is a cherished everyday dish.",
+        [
+          "rice",
+          "lentils",
+          "macaroni",
+          "tomato sauce",
+          "crispy onions"
+        ],
+        [
+          "Cook lentils, rice, and pasta separately.",
+          "Make a garlicky tomato sauce.",
+          "Layer everything and top with crisp onions."
+        ]
+      ],
+      [
+        "South Africa",
+        "Bobotie",
+        "🥧",
+        "Spiced baked minced meat topped with a savory egg custard.",
+        "Bobotie reflects layered influences in South African, especially Cape Malay, cooking.",
+        "Its balance of sweet and savory flavors makes it a recognizable home-style dish.",
+        [
+          "minced meat",
+          "curry spices",
+          "onion",
+          "milk",
+          "eggs"
+        ],
+        [
+          "Cook minced meat with onion and spices.",
+          "Transfer to a baking dish.",
+          "Pour seasoned egg-and-milk mixture over and bake."
+        ]
+      ]
+    ]
+  },
+  "europe": {
+    "name": "Europe",
+    "flag": "🌍",
+    "lead": "From rustic family tables to world-famous bakery and café classics.",
+    "countries": [
+      [
+        "Italy",
+        "Neapolitan Pizza",
+        "🍕",
+        "A thin-centered pizza with puffed crust, tomato, and mozzarella.",
+        "Pizza’s modern Neapolitan style developed in Naples and spread globally.",
+        "Its few quality ingredients and quick, high-heat baking have made it internationally famous.",
+        [
+          "pizza dough",
+          "tomatoes",
+          "mozzarella",
+          "basil",
+          "olive oil"
+        ],
+        [
+          "Stretch risen dough by hand.",
+          "Add a thin layer of tomato and mozzarella.",
+          "Bake at the highest suitable oven temperature; finish with basil."
+        ]
+      ],
+      [
+        "France",
+        "Croissant",
+        "🥐",
+        "A buttery, flaky pastry with a golden crust.",
+        "The modern croissant emerged from French viennoiserie traditions inspired by Central European pastries.",
+        "Its delicate layers and café-breakfast association make it a culinary symbol.",
+        [
+          "flour",
+          "butter",
+          "yeast",
+          "milk",
+          "sugar"
+        ],
+        [
+          "Mix and chill a yeasted dough.",
+          "Fold in butter through repeated rolling and chilling.",
+          "Shape, proof, and bake until golden."
+        ]
+      ],
+      [
+        "Spain",
+        "Paella",
+        "🥘",
+        "Saffron-scented rice cooked in a broad shallow pan.",
+        "Paella originated around Valencia and developed many regional versions.",
+        "Its communal serving style and flavorful rice crust have made it celebrated worldwide.",
+        [
+          "short-grain rice",
+          "saffron",
+          "stock",
+          "vegetables",
+          "chicken or seafood"
+        ],
+        [
+          "Sauté ingredients in a wide pan.",
+          "Add rice, saffron, and stock.",
+          "Simmer without frequent stirring until the rice is cooked."
+        ]
+      ],
+      [
+        "Germany",
+        "Bratwurst",
+        "🌭",
+        "Grilled seasoned sausage, often served with bread and mustard.",
+        "Many regions of Germany have their own bratwurst traditions dating back centuries.",
+        "Its place in festivals, markets, and casual meals makes it especially well known.",
+        [
+          "bratwurst",
+          "bread rolls",
+          "mustard",
+          "onions",
+          "sauerkraut"
+        ],
+        [
+          "Heat a grill or pan to medium heat.",
+          "Cook sausage thoroughly, turning regularly.",
+          "Serve in a roll with mustard and sides."
+        ]
+      ],
+      [
+        "United Kingdom",
+        "Fish and Chips",
+        "🐟",
+        "Crispy battered fish with thick-cut fried potatoes.",
+        "Fish-and-chip shops became established in Britain during the nineteenth century.",
+        "The dish is strongly associated with British takeaway and seaside food culture.",
+        [
+          "white fish",
+          "potatoes",
+          "flour",
+          "sparkling water",
+          "salt"
+        ],
+        [
+          "Cut and fry potatoes until crisp.",
+          "Dip fish in a light batter.",
+          "Fry until golden and serve with chips and lemon."
+        ]
+      ]
+    ]
+  },
+  "north-america": {
+    "name": "North America",
+    "flag": "🌎",
+    "lead": "Bold street foods, comforting classics, and vibrant island flavors.",
+    "countries": [
+      [
+        "United States",
+        "Hamburger",
+        "🍔",
+        "A grilled patty served inside a bun with toppings.",
+        "The modern hamburger rose to prominence in the United States around the turn of the twentieth century.",
+        "It became a worldwide fast-food symbol with countless regional variations.",
+        [
+          "ground beef or plant patty",
+          "burger bun",
+          "lettuce",
+          "tomato",
+          "cheese"
+        ],
+        [
+          "Shape and season patties.",
+          "Cook thoroughly to a safe internal temperature.",
+          "Assemble in a bun with vegetables and sauce."
+        ]
+      ],
+      [
+        "Mexico",
+        "Tacos",
+        "🌮",
+        "Soft tortillas filled with meats, vegetables, and fresh salsa.",
+        "Taco traditions grew from Mexican corn-based foodways and regional cooking cultures.",
+        "Their versatility and lively street-food culture make them famous around the world.",
+        [
+          "corn tortillas",
+          "beans or meat",
+          "onion",
+          "cilantro",
+          "salsa"
+        ],
+        [
+          "Prepare your chosen filling.",
+          "Warm tortillas on a dry pan.",
+          "Fill and finish with onion, cilantro, and salsa."
+        ]
+      ],
+      [
+        "Canada",
+        "Poutine",
+        "🍟",
+        "French fries covered with cheese curds and savory gravy.",
+        "Poutine originated in Quebec in the mid-twentieth century.",
+        "Its indulgent combination has grown into a recognizable Canadian comfort food.",
+        [
+          "potatoes",
+          "cheese curds",
+          "brown gravy",
+          "salt",
+          "pepper"
+        ],
+        [
+          "Fry potatoes until crisp.",
+          "Warm gravy and season to taste.",
+          "Scatter cheese curds over fries and pour gravy on top."
+        ]
+      ],
+      [
+        "Jamaica",
+        "Jerk Chicken",
+        "🍗",
+        "Smoky, spicy chicken seasoned with jerk herbs and peppers.",
+        "Jerk cooking draws on Jamaican culinary traditions, including Maroon and Indigenous influences.",
+        "Its distinctive heat, smoke, and spice have earned international recognition.",
+        [
+          "chicken",
+          "allspice",
+          "scotch bonnet",
+          "thyme",
+          "spring onion"
+        ],
+        [
+          "Blend a jerk marinade.",
+          "Marinate chicken in the refrigerator.",
+          "Grill or roast until fully cooked and lightly charred."
+        ]
+      ],
+      [
+        "Cuba",
+        "Ropa Vieja",
+        "🥩",
+        "Shredded beef simmered in tomato-pepper sauce.",
+        "Ropa vieja is associated with Cuban home cooking and has earlier Spanish connections.",
+        "Its deeply flavored slow-cooked texture makes it a beloved traditional meal.",
+        [
+          "beef",
+          "tomatoes",
+          "bell peppers",
+          "onions",
+          "cumin"
+        ],
+        [
+          "Simmer beef until tender and shred it.",
+          "Cook peppers, onions, and tomatoes into a sauce.",
+          "Combine and simmer; serve with rice."
+        ]
+      ]
+    ]
+  },
+  "south-america": {
+    "name": "South America",
+    "flag": "🌎",
+    "lead": "A delicious mix of indigenous ingredients, grills, and coastal specialties.",
+    "countries": [
+      [
+        "Brazil",
+        "Feijoada",
+        "🍲",
+        "A slow-cooked black-bean stew served with rice and sides.",
+        "Feijoada has a complex history shaped by Brazilian and Portuguese food traditions.",
+        "It is a recognizable social meal served in homes and restaurants.",
+        [
+          "black beans",
+          "smoked meat (optional)",
+          "garlic",
+          "onion",
+          "rice"
+        ],
+        [
+          "Soak and cook black beans until tender.",
+          "Add browned aromatics and your chosen proteins.",
+          "Simmer slowly and serve with rice and greens."
+        ]
+      ],
+      [
+        "Argentina",
+        "Asado",
+        "🥩",
+        "An open-fire barbecue centered on slowly grilled meats.",
+        "Asado is closely linked to Argentine gaucho traditions and social gatherings.",
+        "The sharing, skilled grilling, and long conversations are as important as the food.",
+        [
+          "beef cuts",
+          "coarse salt",
+          "charcoal",
+          "chimichurri",
+          "vegetables"
+        ],
+        [
+          "Prepare a steady bed of embers.",
+          "Salt meat and grill slowly, turning as needed.",
+          "Rest briefly and serve with chimichurri."
+        ]
+      ],
+      [
+        "Peru",
+        "Ceviche",
+        "🐟",
+        "Fresh fish cured in citrus with chili, onion, and herbs.",
+        "Ceviche is closely associated with Peru’s coastal food culture, with roots and influences spanning generations.",
+        "Its bright flavors and emphasis on fresh seafood make it internationally admired.",
+        [
+          "sashimi-grade fish",
+          "lime juice",
+          "red onion",
+          "chili",
+          "cilantro"
+        ],
+        [
+          "Keep fish cold and follow seafood safety guidance.",
+          "Combine with lime, onion, chili, and herbs shortly before serving.",
+          "Serve immediately with traditional sides."
+        ]
+      ],
+      [
+        "Colombia",
+        "Bandeja Paisa",
+        "🍳",
+        "A generous platter of beans, rice, meat, egg, and plantain.",
+        "Bandeja paisa is strongly associated with the Antioquia region of Colombia.",
+        "Its abundant mix of everyday staples makes it a distinctive national favorite.",
+        [
+          "red beans",
+          "rice",
+          "plantain",
+          "egg",
+          "avocado"
+        ],
+        [
+          "Cook seasoned beans and steamed rice.",
+          "Fry plantain and egg; prepare protein of choice.",
+          "Arrange each component on a large platter."
+        ]
+      ],
+      [
+        "Chile",
+        "Pastel de Choclo",
+        "🌽",
+        "A baked casserole topped with sweet corn purée.",
+        "Pastel de choclo brings together corn-based South American food traditions and a savory baked filling.",
+        "Its comforting sweet-savory contrast is especially popular in Chile.",
+        [
+          "corn",
+          "ground meat or lentils",
+          "onion",
+          "basil",
+          "milk"
+        ],
+        [
+          "Cook a savory onion filling.",
+          "Blend cooked corn with basil and milk.",
+          "Layer and bake until the top turns golden."
+        ]
+      ]
+    ]
+  },
+  "oceania": {
+    "name": "Australia & Oceania",
+    "flag": "🌏",
+    "lead": "Island ingredients, earth-oven feasts, and comforting Pacific favorites.",
+    "countries": [
+      [
+        "Australia",
+        "Meat Pie",
+        "🥧",
+        "A handheld pastry pie filled with rich minced-meat gravy.",
+        "Meat pies have been part of Australian bakery and sporting-event culture for generations.",
+        "Their convenience and familiar savory filling make them a popular classic.",
+        [
+          "shortcrust pastry",
+          "minced beef",
+          "onion",
+          "stock",
+          "puff pastry"
+        ],
+        [
+          "Cook beef and onion into a thick filling.",
+          "Spoon into pastry-lined tins.",
+          "Top with pastry and bake until golden."
+        ]
+      ],
+      [
+        "New Zealand",
+        "Hāngī",
+        "🍠",
+        "A traditional Māori method of cooking food slowly in an earth oven.",
+        "Hāngī is an important Māori cooking tradition often associated with gatherings and celebrations.",
+        "It is renowned for its communal preparation and distinctive earthy cooking method.",
+        [
+          "root vegetables",
+          "chicken or other protein",
+          "cabbage",
+          "herbs",
+          "water"
+        ],
+        [
+          "Prepare safe heated stones or use an adapted covered steaming method.",
+          "Wrap food carefully and cook slowly with steam.",
+          "Uncover and serve together at a gathering."
+        ]
+      ],
+      [
+        "Fiji",
+        "Kokoda",
+        "🥥",
+        "Fish marinated in citrus and served with coconut cream.",
+        "Kokoda is a well-known Fijian seafood preparation that showcases Pacific ingredients.",
+        "Citrus, coconut, and fresh vegetables give it a distinctive island flavor.",
+        [
+          "fresh fish",
+          "lime",
+          "coconut cream",
+          "tomato",
+          "chili"
+        ],
+        [
+          "Use fish suitable for raw preparation with proper food safety measures.",
+          "Marinate chilled fish in citrus.",
+          "Stir in coconut cream and finely chopped vegetables; serve cold."
+        ]
+      ],
+      [
+        "Samoa",
+        "Palusami",
+        "🥬",
+        "Leaf-wrapped coconut cream, traditionally baked in an earth oven.",
+        "Palusami reflects Samoan traditions of cooking with taro leaves and coconut.",
+        "Its creamy texture and leaf-wrapped presentation make it memorable.",
+        [
+          "taro leaves or suitable greens",
+          "coconut cream",
+          "onion",
+          "salt",
+          "foil"
+        ],
+        [
+          "Use properly prepared leaves suitable for cooking.",
+          "Add coconut cream and onion to the leaves.",
+          "Wrap securely and bake until thoroughly tender."
+        ]
+      ],
+      [
+        "Papua New Guinea",
+        "Mumu",
+        "🍠",
+        "A communal earth-oven meal of vegetables and meat.",
+        "Mumu is a long-standing Papua New Guinean cooking method used at family and community events.",
+        "The shared preparation connects food with celebration and community.",
+        [
+          "sweet potatoes",
+          "taro",
+          "greens",
+          "chicken or pork",
+          "banana leaves"
+        ],
+        [
+          "Arrange ingredients with clean leaves for steaming.",
+          "Cook with safe retained heat or use a covered oven alternative.",
+          "Serve family-style once fully cooked."
+        ]
+      ]
+    ]
+  }
+}

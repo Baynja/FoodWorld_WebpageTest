@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="Discover famous foods and food traditions from six world regions." name="description"/>
+  <title>
+   Europe | FoodWorld
+  </title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&amp;family=Playfair+Display:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body data-page="europe">
+  <header class="site-header">
+   <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+     <span class="brand-mark">
+      ✦
+     </span>
+     Food
+     <span>
+      World
+     </span>
+    </a>
+    <nav class="desktop-nav">
+     <a data-nav="home" href="index.html">
+      Home
+     </a>
+     <div class="nav-dropdown">
+      <button aria-expanded="false" id="region-toggle" type="button">
+       Regions
+       <span>
+        ⌄
+       </span>
+      </button>
+      <div class="dropdown-menu">
+       <a href="asia.html">
+        🌏 Asia
+       </a>
+       <a href="africa.html">
+        🌍 Africa
+       </a>
+       <a href="europe.html">
+        🌍 Europe
+       </a>
+       <a href="north-america.html">
+        🌎 North America
+       </a>
+       <a href="south-america.html">
+        🌎 South America
+       </a>
+       <a href="oceania.html">
+        🌏 Australia &amp; Oceania
+       </a>
+      </div>
+     </div>
+     <a data-nav="links" href="useful-links.html">
+      Useful Links
+     </a>
+     <a data-nav="about" href="about-us.html">
+      About Us
+     </a>
+    </nav>
+    <button aria-label="Toggle navigation" class="mobile-menu-btn" id="menu-btn" type="button">
+     ☰
+    </button>
+   </div>
+   <div class="mobile-nav" id="mobile-nav">
+    <a href="index.html">
+     Home
+    </a>
+    <a href="asia.html">
+     🌏 Asia
+    </a>
+    <a href="africa.html">
+     🌍 Africa
+    </a>
+    <a href="europe.html">
+     🌍 Europe
+    </a>
+    <a href="north-america.html">
+     🌎 North America
+    </a>
+    <a href="south-america.html">
+     🌎 South America
+    </a>
+    <a href="oceania.html">
+     🌏 Australia &amp; Oceania
+    </a>
+    <a href="useful-links.html">
+     Useful Links
+    </a>
+    <a href="about-us.html">
+     About Us
+    </a>
+   </div>
+  </header>
+  <main>
+   <section class="region-hero">
+    <div class="wrap">
+     <a class="breadcrumb" href="index.html">
+      Home
+      <span>
+       &rsaquo;
+      </span>
+      Regions
+      <span>
+       &rsaquo;
+      </span>
+      Europe
+     </a>
+     <div class="region-hero-grid">
+      <div>
+       <span class="eyebrow">
+        EXPLORE THE REGION
+       </span>
+       <h1>
+        Flavors of
+        <em>
+         Europe
+        </em>
+       </h1>
+       <p>
+        From rustic family tables to world-famous bakery and caf&eacute; classics.
+       </p>
+       <div class="region-meta">
+        <span>
+         🌍 5 countries
+        </span>
+        <span>
+         🍽️ 5 signature dishes
+        </span>
+       </div>
+      </div>
+      <div class="region-bubble">
+       🌍
+       <span>
+        EXPLORE &bull; TASTE &bull; LEARN
+       </span>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="wrap region-content">
+    <div class="region-toolhead">
+     <div>
+      <span class="eyebrow">
+       5 MUST-KNOW DISHES
+      </span>
+      <h2>
+       Meet the local favorites
+      </h2>
+      <p>
+       Italy &middot; France &middot; Spain &middot; Germany &middot; United Kingdom
+      </p>
+     </div>
+     <label class="search-box">
+      &telrec;
+      <input aria-label="Search countries or dishes" id="food-search" placeholder="Search a country or dish..." type="search"/>
+     </label>
+    </div>
+    <div class="country-list" id="country-list">
+     <article class="country-card" data-search="italy neapolitan pizza" id="italy">
+      <div class="country-visual f-peach">
+       <div class="country-index">
+        01 / 05
+       </div>
+       <img alt="Illustration of Neapolitan Pizza, a signature dish from Italy" class="country-food-image" height="480" loading="lazy" src="images/neapolitan pizza.jpg" width="640"/>
+       <div class="country-label">
+        Italy
+       </div>
+      </div>
+      <div class="country-content">
+       <span class="eyebrow">
+        SIGNATURE FOOD &middot; ITALY
+       </span>
+       <h2>
+        Neapolitan Pizza
+       </h2>
+       <p class="food-description">
+        A thin-centered pizza with puffed crust, tomato, and mozzarella.
+       </p>
+       <div class="country-facts">
+        <div>
+         <h4>
+          THE STORY
+         </h4>
+         <p>
+          Pizza&rsquo;s modern Neapolitan style developed in Naples and spread globally.
+         </p>
+        </div>
+        <div>
+         <h4>
+          WHY IT'S LOVED
+         </h4>
+         <p>
+          Its few quality ingredients and quick, high-heat baking have made it internationally famous.
+         </p>
+        </div>
+       </div>
+       <button class="btn primary recipe-btn" data-index="0" data-region="europe">
+        View recipe &amp; details &nearrow;
+       </button>
+      </div>
+     </article>
+     <article class="country-card" data-search="france croissant" id="france">
+      <div class="country-visual f-mint">
+       <div class="country-index">
+        02 / 05
+       </div>
+       <img alt="Illustration of Croissant, a signature dish from France" class="country-food-image" height="480" loading="lazy" src="images/croissant_1.jpg" width="640"/>
+       <div class="country-label">
+        France
+       </div>
+      </div>
+      <div class="country-content">
+       <span class="eyebrow">
+        SIGNATURE FOOD &middot; FRANCE
+       </span>
+       <h2>
+        Croissant
+       </h2>
+       <p class="food-description">
+        A buttery, flaky pastry with a golden crust.
+       </p>
+       <div class="country-facts">
+        <div>
+         <h4>
+          THE STORY
+         </h4>
+         <p>
+          The modern croissant emerged from French viennoiserie traditions inspired by Central European pastries.
+         </p>
+        </div>
+        <div>
+         <h4>
+          WHY IT'S LOVED
+         </h4>
+         <p>
+          Its delicate layers and caf&eacute;-breakfast association make it a culinary symbol.
+         </p>
+        </div>
+       </div>
+       <button class="btn primary recipe-btn" data-index="1" data-region="europe">
+        View recipe &amp; details &nearrow;
+       </button>
+      </div>
+     </article>
+     <article class="country-card" data-search="spain paella" id="spain">
+      <div class="country-visual f-lavender">
+       <div class="country-index">
+        03 / 05
+       </div>
+       <img alt="Illustration of Paella, a signature dish from Spain" class="country-food-image" height="480" loading="lazy" src="images/paella.webp" width="640"/>
+       <div class="country-label">
+        Spain
+       </div>
+      </div>
+      <div class="country-content">
+       <span class="eyebrow">
+        SIGNATURE FOOD &middot; SPAIN
+       </span>
+       <h2>
+        Paella
+       </h2>
+       <p class="food-description">
+        Saffron-scented rice cooked in a broad shallow pan.
+       </p>
+       <div class="country-facts">
+        <div>
+         <h4>
+          THE STORY
+         </h4>
+         <p>
+          Paella originated around Valencia and developed many regional versions.
+         </p>
+        </div>
+        <div>
+         <h4>
+          WHY IT'S LOVED
+         </h4>
+         <p>
+          Its communal serving style and flavorful rice crust have made it celebrated worldwide.
+         </p>
+        </div>
+       </div>
+       <button class="btn primary recipe-btn" data-index="2" data-region="europe">
+        View recipe &amp; details &nearrow;
+       </button>
+      </div>
+     </article>
+     <article class="country-card" data-search="germany bratwurst" id="germany">
+      <div class="country-visual f-yellow">
+       <div class="country-index">
+        04 / 05
+       </div>
+       <img alt="Illustration of Bratwurst, a signature dish from Germany" class="country-food-image" height="480" loading="lazy" src="images/bratwurst.jpg" width="640"/>
+       <div class="country-label">
+        Germany
+       </div>
+      </div>
+      <div class="country-content">
+       <span class="eyebrow">
+        SIGNATURE FOOD &middot; GERMANY
+       </span>
+       <h2>
+        Bratwurst
+       </h2>
+       <p class="food-description">
+        Grilled seasoned sausage, often served with bread and mustard.
+       </p>
+       <div class="country-facts">
+        <div>
+         <h4>
+          THE STORY
+         </h4>
+         <p>
+          Many regions of Germany have their own bratwurst traditions dating back centuries.
+         </p>
+        </div>
+        <div>
+         <h4>
+          WHY IT'S LOVED
+         </h4>
+         <p>
+          Its place in festivals, markets, and casual meals makes it especially well known.
+         </p>
+        </div>
+       </div>
+       <button class="btn primary recipe-btn" data-index="3" data-region="europe">
+        View recipe &amp; details &nearrow;
+       </button>
+      </div>
+     </article>
+     <article class="country-card" data-search="united kingdom fish and chips" id="united-kingdom">
+      <div class="country-visual f-blue">
+       <div class="country-index">
+        05 / 05
+       </div>
+       <img alt="Illustration of Fish and Chips, a signature dish from United Kingdom" class="country-food-image" height="480" loading="lazy" src="images/fish and chips.jpg" width="640"/>
+       <div class="country-label">
+        United Kingdom
+       </div>
+      </div>
+      <div class="country-content">
+       <span class="eyebrow">
+        SIGNATURE FOOD &middot; UNITED KINGDOM
+       </span>
+       <h2>
+        Fish and Chips
+       </h2>
+       <p class="food-description">
+        Crispy battered fish with thick-cut fried potatoes.
+       </p>
+       <div class="country-facts">
+        <div>
+         <h4>
+          THE STORY
+         </h4>
+         <p>
+          Fish-and-chip shops became established in Britain during the nineteenth century.
+         </p>
+        </div>
+        <div>
+         <h4>
+          WHY IT'S LOVED
+         </h4>
+         <p>
+          The dish is strongly associated with British takeaway and seaside food culture.
+         </p>
+        </div>
+       </div>
+       <button class="btn primary recipe-btn" data-index="4" data-region="europe">
+        View recipe &amp; details &nearrow;
+       </button>
+      </div>
+     </article>
+    </div>
+    <div class="empty-state" hidden="" id="empty-state">
+     No dishes match your search. Try another name.
+    </div>
+    <div class="region-end">
+     <p>
+      Hungry for more? Explore another part of the world.
+     </p>
+     <a class="btn outline" href="index.html#regions">
+      All six regions &nearrow;
+     </a>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div class="wrap footer-grid">
+    <div>
+     <div class="footer-brand">
+      ✦ FoodWorld
+     </div>
+     <p>
+      Exploring food, people, and traditions &mdash; one region at a time.
+     </p>
+    </div>
+    <div>
+     <h4>
+      Discover
+     </h4>
+     <a href="index.html#map">
+      Explore the map
+     </a>
+     <a href="useful-links.html">
+      Recipe resources
+     </a>
+    </div>
+    <div>
+     <h4>
+      Project
+     </h4>
+     <a href="about-us.html">
+      About our team
+     </a>
+     <span>
+      Made for learning &amp; cultural discovery.
+     </span>
+    </div>
+   </div>
+   <div class="wrap footer-bottom">
+    &copy; 2026 FoodWorld &middot; A student educational project &middot; Signature dishes are editorial selections, not official rankings.
+   </div>
+  </footer>
+  <script id="region-data" type="application/json">
+   {"name": "Europe", "flag": "🌍", "lead": "From rustic family tables to world-famous bakery and café classics.", "countries": [["Italy", "Neapolitan Pizza", "🍕", "A thin-centered pizza with puffed crust, tomato, and mozzarella.", "Pizza’s modern Neapolitan style developed in Naples and spread globally.", "Its few quality ingredients and quick, high-heat baking have made it internationally famous.", ["pizza dough", "tomatoes", "mozzarella", "basil", "olive oil"], ["Stretch risen dough by hand.", "Add a thin layer of tomato and mozzarella.", "Bake at the highest suitable oven temperature; finish with basil."]], ["France", "Croissant", "🥐", "A buttery, flaky pastry with a golden crust.", "The modern croissant emerged from French viennoiserie traditions inspired by Central European pastries.", "Its delicate layers and café-breakfast association make it a culinary symbol.", ["flour", "butter", "yeast", "milk", "sugar"], ["Mix and chill a yeasted dough.", "Fold in butter through repeated rolling and chilling.", "Shape, proof, and bake until golden."]], ["Spain", "Paella", "🥘", "Saffron-scented rice cooked in a broad shallow pan.", "Paella originated around Valencia and developed many regional versions.", "Its communal serving style and flavorful rice crust have made it celebrated worldwide.", ["short-grain rice", "saffron", "stock", "vegetables", "chicken or seafood"], ["Sauté ingredients in a wide pan.", "Add rice, saffron, and stock.", "Simmer without frequent stirring until the rice is cooked."]], ["Germany", "Bratwurst", "🌭", "Grilled seasoned sausage, often served with bread and mustard.", "Many regions of Germany have their own bratwurst traditions dating back centuries.", "Its place in festivals, markets, and casual meals makes it especially well known.", ["bratwurst", "bread rolls", "mustard", "onions", "sauerkraut"], ["Heat a grill or pan to medium heat.", "Cook sausage thoroughly, turning regularly.", "Serve in a roll with mustard and sides."]], ["United Kingdom", "Fish and Chips", "🐟", "Crispy battered fish with thick-cut fried potatoes.", "Fish-and-chip shops became established in Britain during the nineteenth century.", "The dish is strongly associated with British takeaway and seaside food culture.", ["white fish", "potatoes", "flour", "sparkling water", "salt"], ["Cut and fry potatoes until crisp.", "Dip fish in a light batter.", "Fry until golden and serve with chips and lemon."]]]}
+  </script>
+  <script src="app.js">
+  </script>
+  <script id="region-data" type="application/json">
+   {"name": "Europe", "flag": "🌍", "lead": "From rustic family tables to world-famous bakery and café classics.", "countries": [["Italy", "Neapolitan Pizza", "🍕", "A thin-centered pizza with puffed crust, tomato, and mozzarella.", "Pizza’s modern Neapolitan style developed in Naples and spread globally.", "Its few quality ingredients and quick, high-heat baking have made it internationally famous.", ["pizza dough", "tomatoes", "mozzarella", "basil", "olive oil"], ["Stretch risen dough by hand.", "Add a thin layer of tomato and mozzarella.", "Bake at the highest suitable oven temperature; finish with basil."]], ["France", "Croissant", "🥐", "A buttery, flaky pastry with a golden crust.", "The modern croissant emerged from French viennoiserie traditions inspired by Central European pastries.", "Its delicate layers and café-breakfast association make it a culinary symbol.", ["flour", "butter", "yeast", "milk", "sugar"], ["Mix and chill a yeasted dough.", "Fold in butter through repeated rolling and chilling.", "Shape, proof, and bake until golden."]], ["Spain", "Paella", "🥘", "Saffron-scented rice cooked in a broad shallow pan.", "Paella originated around Valencia and developed many regional versions.", "Its communal serving style and flavorful rice crust have made it celebrated worldwide.", ["short-grain rice", "saffron", "stock", "vegetables", "chicken or seafood"], ["Sauté ingredients in a wide pan.", "Add rice, saffron, and stock.", "Simmer without frequent stirring until the rice is cooked."]], ["Germany", "Bratwurst", "🌭", "Grilled seasoned sausage, often served with bread and mustard.", "Many regions of Germany have their own bratwurst traditions dating back centuries.", "Its place in festivals, markets, and casual meals makes it especially well known.", ["bratwurst", "bread rolls", "mustard", "onions", "sauerkraut"], ["Heat a grill or pan to medium heat.", "Cook sausage thoroughly, turning regularly.", "Serve in a roll with mustard and sides."]], ["United Kingdom", "Fish and Chips", "🐟", "Crispy battered fish with thick-cut fried potatoes.", "Fish-and-chip shops became established in Britain during the nineteenth century.", "The dish is strongly associated with British takeaway and seaside food culture.", ["white fish", "potatoes", "flour", "sparkling water", "salt"], ["Cut and fry potatoes until crisp.", "Dip fish in a light batter.", "Fry until golden and serve with chips and lemon."]]]}
+  </script>
+ </body>
+</html>

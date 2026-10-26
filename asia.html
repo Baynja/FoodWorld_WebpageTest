@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="Discover famous foods and food traditions from six world regions." name="description"/>
+  <title>
+   Asia | FoodWorld
+  </title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&amp;family=Playfair+Display:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body data-page="asia">
+  <header class="site-header">
+   <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+     <span class="brand-mark">
+      ✦
+     </span>
+     Food
+     <span>
+      World
+     </span>
+    </a>
+    <nav class="desktop-nav">
+     <a data-nav="home" href="index.html">
+      Home
+     </a>
+     <div class="nav-dropdown">
+      <button aria-expanded="false" id="region-toggle" type="button">
+       Regions
+       <span>
+        ⌄
+       </span>
+      </button>
+      <div class="dropdown-menu">
+       <a href="asia.html">
+        🌏 Asia
+       </a>
+       <a href="africa.html">
+        🌍 Africa
+       </a>
+       <a href="europe.html">
+        🌍 Europe
+       </a>
+       <a href="north-america.html">
+        🌎 North America
+       </a>
+       <a href="south-america.html">
+        🌎 South America
+       </a>
+       <a href="oceania.html">
+        🌏 Australia &amp; Oceania
+       </a>
+      </div>
+     </div>
+     <a data-nav="links" href="useful-links.html">
+      Useful Links
+     </a>
+     <a data-nav="about" href="about-us.html">
+      About Us
+     </a>
+    </nav>
+    <button aria-label="Toggle navigation" class="mobile-menu-btn" id="menu-btn" type="button">
+     ☰
+    </button>
+   </div>
+   <div class="mobile-nav" id="mobile-nav">
+    <a href="index.html">
+     Home
+    </a>
+    <a href="asia.html">
+     🌏 Asia
+    </a>
+    <a href="africa.html">
+     🌍 Africa
+    </a>
+    <a href="europe.html">
+     🌍 Europe
+    </a>
+    <a href="north-america.html">
+     🌎 North America
+    </a>
+    <a href="south-america.html">
+     🌎 South America
+    </a>
+    <a href="oceania.html">
+     🌏 Australia &amp; Oceania
+    </a>
+    <a href="useful-links.html">
+     Useful Links
+    </a>
+    <a href="about-us.html">
+     About Us
+    </a>
+   </div>
+  </header>
+  <main>
+   <section class="region-hero">
+    <div class="wrap">
+     <a class="breadcrumb" href="index.html">
+      Home
+      <span>
+       &rsaquo;
+      </span>
+      Regions
+      <span>
+       &rsaquo;
+      </span>
+      Asia
+     </a>
+     <div class="region-hero-grid">
+      <div>
+       <span class="eyebrow">
+        EXPLORE THE REGION
+       </span>
+       <h1>
+        Flavors of
+        <em>
+         Asia
+        </em>
+       </h1>
+       <p>
+        A world of aromatic spices, street-food favorites, and centuries-old traditions.
+       </p>
+       <div class="region-meta">
+        <span>
+         🌍 5 countries
+        </span>
+        <span>
+         🍽️ 5 signature dishes
+        </span>
+       </div>
+      </div>
+      <div class="region-bubble">
+       🌏
+       <span>
+        EXPLORE &bull; TASTE &bull; LEARN
+       </span>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="wrap region-content">
+    <div class="region-toolhead">
+     <div>
+      <span class="eyebrow">
+       5 MUST-KNOW DISHES
+      </span>
+      <h2>
+       Meet the local favorites
+      </h2>
+      <p>
+       Myanmar &middot; Thailand &middot; China &middot; Singapore &middot; India
+      </p>
+     </div>
+     <label class="search-box">
+      &telrec;
+      <input aria-label="Search countries or dishes" id="food-search" placeholder="Search a country or dish..." type="search"/>
+     </label>
+    </div>
+    <div class="country-list" id="country-list">
+     <article class="country-card" data-search="myanmar mohinga" id="myanmar">
+      <div class="country-visual f-peach">
+       <div class="country-index">
+        01 / 05
+       </div>
+       <img alt="Illustration of Mohinga, a signature dish from Myanmar" class="country-food-image" height="480" loading="lazy" src="images/mohinga.webp" width="640"/>
+       <div class="country-label">
+        Myanmar
+       </div>
+      </div>
+      <div class="country-content">
+       <span class="eyebrow">
+        SIGNATURE FOOD &middot; MYANMAR
+       </span>
+       <h2>
+        Mohinga
+       </h2>
+       <p class="food-description">
+        A fragrant fish-and-rice-noodle soup, often enjoyed for breakfast.
+       </p>
+       <div class="country-facts">
+        <div>
+         <h4>
+          THE STORY
+         </h4>
+         <p>
+          Mohinga is deeply woven into everyday Burmese food culture and is sold in markets and teashops.
+         </p>
+        </div>
+        <div>
+         <h4>
+          WHY IT'S LOVED
+         </h4>
+         <p>
+          Its comforting broth, fresh toppings, and presence across the country make it a beloved national favorite.
+         </p>
+        </div>
+       </div>
+       <button class="btn primary recipe-btn" data-index="0" data-region="asia">
+        View recipe &amp; details &nearrow;
+       </button>
+      </div>
+     </article>
+     <article class="country-card" data-search="thailand pad thai" id="thailand">
+      <div class="country-visual f-mint">
+       <div class="country-index">
+        02 / 05
+       </div>
+       <img alt="Illustration of Pad Thai, a signature dish from Thailand" class="country-food-image" height="480" loading="lazy" src="images/padthai.webp" width="640"/>
+       <div class="country-label">
+        Thailand
+       </div>
+      </div>
+      <div class="country-content">
+       <span class="eyebrow">
+        SIGNATURE FOOD &middot; THAILAND
+       </span>
+       <h2>
+        Pad Thai
+       </h2>
+       <p class="food-description">
+        Stir-fried rice noodles with tamarind, egg, and fresh garnishes.
+       </p>
+       <div class="country-facts">
+        <div>
+         <h4>
+          THE STORY
+         </h4>
+         <p>
+          Pad Thai became widely promoted in Thailand during the twentieth century and developed into a popular street-food dish.
+         </p>
+        </div>
+        <div>
+         <h4>
+          WHY IT'S LOVED
+         </h4>
+         <p>
+          The sweet, sour, salty balance and fast wok cooking have made it internationally recognizable.
+         </p>
+        </div>
+       </div>
+       <button class="btn primary recipe-btn" data-index="1" data-region="asia">
+        View recipe &amp; details &nearrow;
+       </button>
+      </div>
+     </article>
+     <article class="country-card" data-search="china peking duck" id="china">
+      <div class="country-visual f-lavender">
+       <div class="country-index">
+        03 / 05
+       </div>
+       <img alt="Illustration of Peking Duck, a signature dish from China" class="country-food-image" height="480" loading="lazy" src="images/peking_duck.webp" width="640"/>
+       <div class="country-label">
+        China
+       </div>
+      </div>
+      <div class="country-content">
+       <span class="eyebrow">
+        SIGNATURE FOOD &middot; CHINA
+       </span>
+       <h2>
+        Peking Duck
+       </h2>
+       <p class="food-description">
+        Crisp-skinned roasted duck served with thin pancakes and sauce.
+       </p>
+       <div class="country-facts">
+        <div>
+         <h4>
+          THE STORY
+         </h4>
+         <p>
+          Peking duck is associated with Beijing and has roots in imperial-era Chinese cooking.
+         </p>
+        </div>
+        <div>
+         <h4>
+          WHY IT'S LOVED
+         </h4>
+         <p>
+          Its elaborate roasting technique and celebratory presentation make it iconic.
+         </p>
+        </div>
+       </div>
+       <button class="btn primary recipe-btn" data-index="2" data-region="asia">
+        View recipe &amp; details &nearrow;
+       </button>
+      </div>
+     </article>
+     <article class="country-card" data-search="singapore hainanese chicken rice" id="singapore">
+      <div class="country-visual f-yellow">
+       <div class="country-index">
+        04 / 05
+       </div>
+       <img alt="Illustration of Hainanese Chicken Rice, a signature dish from Singapore" class="country-food-image" height="480" loading="lazy" src="images/hainese chicken rice.jpg" width="640"/>
+       <div class="country-label">
+        Singapore
+       </div>
+      </div>
+      <div class="country-content">
+       <span class="eyebrow">
+        SIGNATURE FOOD &middot; SINGAPORE
+       </span>
+       <h2>
+        Hainanese Chicken Rice
+       </h2>
+       <p class="food-description">
+        Tender poached chicken with seasoned rice and chili sauce.
+       </p>
+       <div class="country-facts">
+        <div>
+         <h4>
+          THE STORY
+         </h4>
+         <p>
+          Adapted from Hainanese cooking traditions, the dish became a signature of Singapore&rsquo;s hawker culture.
+         </p>
+        </div>
+        <div>
+         <h4>
+          WHY IT'S LOVED
+         </h4>
+         <p>
+          Its simple ingredients, distinctive rice, and flavorful sauces are celebrated across the city.
+         </p>
+        </div>
+       </div>
+       <button class="btn primary recipe-btn" data-index="3" data-region="asia">
+        View recipe &amp; details &nearrow;
+       </button>
+      </div>
+     </article>
+     <article class="country-card" data-search="india biryani" id="india">
+      <div class="country-visual f-blue">
+       <div class="country-index">
+        05 / 05
+       </div>
+       <img alt="Illustration of Biryani, a signature dish from India" class="country-food-image" height="480" loading="lazy" src="images/Chicken-Biryani.jpg" width="640"/>
+       <div class="country-label">
+        India
+       </div>
+      </div>
+      <div class="country-content">
+       <span class="eyebrow">
+        SIGNATURE FOOD &middot; INDIA
+       </span>
+       <h2>
+        Biryani
+       </h2>
+       <p class="food-description">
+        Fragrant layered rice with spices, herbs, and meat or vegetables.
+       </p>
+       <div class="country-facts">
+        <div>
+         <h4>
+          THE STORY
+         </h4>
+         <p>
+          Biryani evolved through several regional traditions influenced by Persianate and South Asian cooking.
+         </p>
+        </div>
+        <div>
+         <h4>
+          WHY IT'S LOVED
+         </h4>
+         <p>
+          Its rich fragrance, celebratory role, and many regional varieties make it widely loved.
+         </p>
+        </div>
+       </div>
+       <button class="btn primary recipe-btn" data-index="4" data-region="asia">
+        View recipe &amp; details &nearrow;
+       </button>
+      </div>
+     </article>
+    </div>
+    <div class="empty-state" hidden="" id="empty-state">
+     No dishes match your search. Try another name.
+    </div>
+    <div class="region-end">
+     <p>
+      Hungry for more? Explore another part of the world.
+     </p>
+     <a class="btn outline" href="index.html#regions">
+      All six regions &nearrow;
+     </a>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div class="wrap footer-grid">
+    <div>
+     <div class="footer-brand">
+      ✦ FoodWorld
+     </div>
+     <p>
+      Exploring food, people, and traditions &mdash; one region at a time.
+     </p>
+    </div>
+    <div>
+     <h4>
+      Discover
+     </h4>
+     <a href="index.html#map">
+      Explore the map
+     </a>
+     <a href="useful-links.html">
+      Recipe resources
+     </a>
+    </div>
+    <div>
+     <h4>
+      Project
+     </h4>
+     <a href="about-us.html">
+      About our team
+     </a>
+     <span>
+      Made for learning &amp; cultural discovery.
+     </span>
+    </div>
+   </div>
+   <div class="wrap footer-bottom">
+    &copy; 2026 FoodWorld &middot; A student educational project &middot; Signature dishes are editorial selections, not official rankings.
+   </div>
+  </footer>
+  <script id="region-data" type="application/json">
+   {"name": "Asia", "flag": "🌏", "lead": "A world of aromatic spices, street-food favorites, and centuries-old traditions.", "countries": [["Myanmar", "Mohinga", "🍜", "A fragrant fish-and-rice-noodle soup, often enjoyed for breakfast.", "Mohinga is deeply woven into everyday Burmese food culture and is sold in markets and teashops.", "Its comforting broth, fresh toppings, and presence across the country make it a beloved national favorite.", ["rice noodles", "fish", "lemongrass", "onion", "banana stem (optional)"], ["Simmer fish with lemongrass, onion, and spices.", "Flake the cooked fish into the seasoned broth.", "Serve over rice noodles with your favorite crunchy toppings."]], ["Thailand", "Pad Thai", "🍝", "Stir-fried rice noodles with tamarind, egg, and fresh garnishes.", "Pad Thai became widely promoted in Thailand during the twentieth century and developed into a popular street-food dish.", "The sweet, sour, salty balance and fast wok cooking have made it internationally recognizable.", ["rice noodles", "tamarind sauce", "egg", "tofu or shrimp", "bean sprouts"], ["Soak rice noodles until flexible.", "Stir-fry protein and egg, then add noodles and tamarind sauce.", "Toss with bean sprouts and finish with lime and peanuts."]], ["China", "Peking Duck", "🦆", "Crisp-skinned roasted duck served with thin pancakes and sauce.", "Peking duck is associated with Beijing and has roots in imperial-era Chinese cooking.", "Its elaborate roasting technique and celebratory presentation make it iconic.", ["duck", "five-spice powder", "thin pancakes", "spring onions", "hoisin-style sauce"], ["Season and air-dry the duck skin before roasting.", "Roast until the skin is deeply golden and crisp.", "Slice and serve with pancakes, vegetables, and sauce."]], ["Singapore", "Hainanese Chicken Rice", "🍚", "Tender poached chicken with seasoned rice and chili sauce.", "Adapted from Hainanese cooking traditions, the dish became a signature of Singapore’s hawker culture.", "Its simple ingredients, distinctive rice, and flavorful sauces are celebrated across the city.", ["chicken", "jasmine rice", "ginger", "garlic", "chili sauce"], ["Poach chicken gently with ginger and aromatics.", "Cook rice in seasoned chicken stock.", "Serve sliced chicken with rice, cucumber, and sauces."]], ["India", "Biryani", "🍛", "Fragrant layered rice with spices, herbs, and meat or vegetables.", "Biryani evolved through several regional traditions influenced by Persianate and South Asian cooking.", "Its rich fragrance, celebratory role, and many regional varieties make it widely loved.", ["basmati rice", "mixed spices", "onion", "yogurt", "chicken or vegetables"], ["Parboil rice with whole spices.", "Prepare a spiced filling with onions and yogurt.", "Layer rice and filling, cover, and steam gently."]]]}
+  </script>
+  <script src="app.js">
+  </script>
+  <script id="region-data" type="application/json">
+   {"name": "Asia", "flag": "🌏", "lead": "A world of aromatic spices, street-food favorites, and centuries-old traditions.", "countries": [["Myanmar", "Mohinga", "🍜", "A fragrant fish-and-rice-noodle soup, often enjoyed for breakfast.", "Mohinga is deeply woven into everyday Burmese food culture and is sold in markets and teashops.", "Its comforting broth, fresh toppings, and presence across the country make it a beloved national favorite.", ["rice noodles", "fish", "lemongrass", "onion", "banana stem (optional)"], ["Simmer fish with lemongrass, onion, and spices.", "Flake the cooked fish into the seasoned broth.", "Serve over rice noodles with your favorite crunchy toppings."]], ["Thailand", "Pad Thai", "🍝", "Stir-fried rice noodles with tamarind, egg, and fresh garnishes.", "Pad Thai became widely promoted in Thailand during the twentieth century and developed into a popular street-food dish.", "The sweet, sour, salty balance and fast wok cooking have made it internationally recognizable.", ["rice noodles", "tamarind sauce", "egg", "tofu or shrimp", "bean sprouts"], ["Soak rice noodles until flexible.", "Stir-fry protein and egg, then add noodles and tamarind sauce.", "Toss with bean sprouts and finish with lime and peanuts."]], ["China", "Peking Duck", "🦆", "Crisp-skinned roasted duck served with thin pancakes and sauce.", "Peking duck is associated with Beijing and has roots in imperial-era Chinese cooking.", "Its elaborate roasting technique and celebratory presentation make it iconic.", ["duck", "five-spice powder", "thin pancakes", "spring onions", "hoisin-style sauce"], ["Season and air-dry the duck skin before roasting.", "Roast until the skin is deeply golden and crisp.", "Slice and serve with pancakes, vegetables, and sauce."]], ["Singapore", "Hainanese Chicken Rice", "🍚", "Tender poached chicken with seasoned rice and chili sauce.", "Adapted from Hainanese cooking traditions, the dish became a signature of Singapore’s hawker culture.", "Its simple ingredients, distinctive rice, and flavorful sauces are celebrated across the city.", ["chicken", "jasmine rice", "ginger", "garlic", "chili sauce"], ["Poach chicken gently with ginger and aromatics.", "Cook rice in seasoned chicken stock.", "Serve sliced chicken with rice, cucumber, and sauces."]], ["India", "Biryani", "🍛", "Fragrant layered rice with spices, herbs, and meat or vegetables.", "Biryani evolved through several regional traditions influenced by Persianate and South Asian cooking.", "Its rich fragrance, celebratory role, and many regional varieties make it widely loved.", ["basmati rice", "mixed spices", "onion", "yogurt", "chicken or vegetables"], ["Parboil rice with whole spices.", "Prepare a spiced filling with onions and yogurt.", "Layer rice and filling, cover, and steam gently."]]]}
+  </script>
+ </body>
+</html>
